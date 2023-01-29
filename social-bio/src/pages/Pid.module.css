@@ -1,0 +1,340 @@
+.pidPageChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #daeee3;
+    width: 222px;
+    height: 1173px;
+  }
+  .chatIcon {
+    position: absolute;
+    top: 504.63px;
+    left: 684.93px;
+    width: 55.83px;
+    height: 54.37px;
+    object-fit: cover;
+  }
+  .div,
+  .div1 {
+    position: absolute;
+    top: 519.18px;
+    left: 627.52px;
+    display: inline-block;
+    width: 96.72px;
+    height: 32.93px;
+  }
+  .div1 {
+    left: 752.55px;
+  }
+  .image6Icon {
+    position: absolute;
+    top: 506.16px;
+    left: 568.54px;
+    width: 47.18px;
+    height: 45.95px;
+    object-fit: cover;
+  }
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 558.32px;
+    height: 65.09px;
+  }
+  .groupChild {
+    position: absolute;
+    top: 5.36px;
+    left: 7.82px;
+    width: 58.65px;
+    height: 53.6px;
+    object-fit: cover;
+  }
+  .groupParent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 558.32px;
+    height: 65.09px;
+  }
+  .pidBarChild,
+  .userName {
+    position: absolute;
+    top: 26.8px;
+    left: 497.58px;
+    width: 40.49px;
+    height: 9.19px;
+  }
+  .userName {
+    top: 19.14px;
+    left: 76.31px;
+    display: inline-block;
+    width: 150.29px;
+    height: 19.14px;
+  }
+  .image3Icon,
+  .pidBar {
+    position: absolute;
+    top: 0;
+    left: 560.68px;
+    width: 558.32px;
+    height: 65.09px;
+  }
+  .image3Icon {
+    left: 0;
+    height: 559px;
+    object-fit: cover;
+  }
+  .p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .socialBio1 {
+    margin: 0;
+  }
+  .socialBio {
+    position: absolute;
+    top: 79px;
+    left: 576px;
+    display: inline-block;
+    width: 544px;
+    height: 426px;
+  }
+  .pidUi2 {
+    position: absolute;
+    top: 368px;
+    left: 273px;
+    width: 1120px;
+    height: 559px;
+    text-align: left;
+  }
+  .chatIcon1 {
+    position: absolute;
+    top: 1567.64px;
+    left: 958.31px;
+    width: 55.78px;
+    height: 58.36px;
+    object-fit: cover;
+  }
+  .div2,
+  .div3 {
+    position: absolute;
+    top: 557.26px;
+    left: 626.96px;
+    display: inline-block;
+    width: 96.64px;
+    height: 35.34px;
+  }
+  .div3 {
+    left: 751.88px;
+  }
+  .image6Icon1 {
+    position: absolute;
+    top: 1569.29px;
+    left: 842.04px;
+    width: 47.14px;
+    height: 49.32px;
+    object-fit: cover;
+  }
+  .image7Icon,
+  .logo1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 557.82px;
+  }
+  .image7Icon {
+    height: 600px;
+    object-fit: cover;
+  }
+  .logo1 {
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    height: 69.86px;
+  }
+  .groupItem {
+    position: absolute;
+    top: 5.75px;
+    left: 7.81px;
+    width: 58.59px;
+    height: 57.53px;
+    object-fit: cover;
+  }
+  .groupContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 557.82px;
+    height: 69.86px;
+  }
+  .pidBarItem,
+  .userName1 {
+    position: absolute;
+    top: 28.77px;
+    left: 497.14px;
+    width: 40.46px;
+    height: 9.86px;
+  }
+  .userName1 {
+    top: 20.55px;
+    left: 76.24px;
+    display: inline-block;
+    width: 150.15px;
+    height: 20.55px;
+  }
+  .pidBar1,
+  .socialBio2 {
+    position: absolute;
+    top: 0;
+    left: 560.18px;
+    width: 557.82px;
+    height: 69.86px;
+  }
+  .socialBio2 {
+    top: 84.66px;
+    left: 574.32px;
+    display: inline-block;
+    width: 543.68px;
+    height: 447.95px;
+  }
+  .pidUi {
+    position: absolute;
+    top: 1026px;
+    left: 274px;
+    width: 1118px;
+    height: 600px;
+    text-align: left;
+  }
+  .pidPageItem {
+    position: absolute;
+    top: 198px;
+    left: 442px;
+    width: 608.19px;
+    height: 81.72px;
+  }
+  .div4,
+  .div5 {
+    position: absolute;
+    top: 217px;
+    left: 196px;
+    font-size: var(--font-size-lg);
+    display: inline-block;
+    width: 258px;
+  }
+  .div5 {
+    left: 1054px;
+  }
+  .pidPageInner {
+    position: absolute;
+    top: 270px;
+    left: 272.99px;
+    border-top: 2px solid #9f9f9f;
+    box-sizing: border-box;
+    width: 115.02px;
+    height: 2px;
+  }
+  .idBlockChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 79.57px;
+    height: 89px;
+    object-fit: cover;
+  }
+  .csyeob {
+    position: absolute;
+    top: 28.48px;
+    left: 55.7px;
+    display: inline-block;
+    width: 166.3px;
+    height: 32.04px;
+  }
+  .idBlock {
+    position: absolute;
+    top: 246px;
+    left: 0;
+    width: 222px;
+    height: 89px;
+    font-size: var(--font-size-lg);
+  }
+  .groupInner {
+    top: 0;
+    left: 0;
+    border-radius: var(--br-md);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-silver);
+    box-sizing: border-box;
+    width: 206px;
+    height: 74px;
+  }
+  .div6,
+  .groupInner,
+  .starIcon {
+    position: absolute;
+  }
+  .starIcon {
+    top: 9px;
+    left: 16.5px;
+    width: 33.59px;
+    height: 60px;
+  }
+  .div6 {
+    top: 24px;
+    left: 27.43px;
+    display: inline-block;
+    width: 125.95px;
+  }
+  .image8Icon,
+  .rectangleParent {
+    position: absolute;
+    top: 431px;
+    left: 16px;
+    width: 206px;
+    height: 74px;
+  }
+  .image8Icon {
+    top: 7px;
+    left: 19.03px;
+    width: 26.44px;
+    height: 60px;
+    object-fit: cover;
+  }
+  .div8,
+  .div9,
+  .follow {
+    position: absolute;
+    top: 561px;
+    left: 16px;
+    width: 206px;
+    height: 84px;
+  }
+  .div8,
+  .div9 {
+    top: 0;
+    left: 224px;
+    background-color: #b6be86;
+    width: 1216px;
+    height: 102px;
+  }
+  .div9 {
+    left: 0;
+    background-color: #778dff;
+    width: 224px;
+  }
+  .pidPage {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1173px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  
