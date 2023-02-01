@@ -15,11 +15,11 @@ export default function Pid(){
   }, []);
 
   const onFollowBtnContainerClick = useCallback(() => {
-    // Please sync "follow_page" to the project
+    <Link to ="/followlist">follow_list</Link>
   }, []);
 
   const onAdStarBtnContainerClick = useCallback(() => {
-    console.log("aa") // 작동확인
+
   }, []);
 
 

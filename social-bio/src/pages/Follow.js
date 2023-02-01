@@ -6,14 +6,14 @@ export default function Follow(){
     return (
     <div className={styles.followPage}>
       <div className={styles.followPageChild} />
-      <img className={styles.searchBarIcon} alt="" src="../followpage_img/search-bar.svg" />
+      <img className={styles.searchBarIcon} alt="" src="../followpage_images/search-bar.svg" />
       <div className={styles.idBlock}>
-        <img className={styles.idBlockChild} alt="" src="../followpage_img/ellipse-2@2x.png" />
+        <img className={styles.idBlockChild} alt="" src="../followpage_images/ellipse-2@2x.png" />
         <div className={styles.csyeob}>csyeob</div>
       </div>
       <div className={styles.advBox}>
         <div className={styles.advBox1} />
-        <img className={styles.starIcon} alt="" src="../followpage_img/star.svg" />
+        <img className={styles.starIcon} alt="" src="../followpage_images/star.svg" />
         <div className={styles.advTxt}>광고물 보기</div>
       </div>
       <div className={styles.follow}>
@@ -22,7 +22,7 @@ export default function Follow(){
         <img
           className={styles.followImgIcon}
           alt=""
-          src="../followpage_img/follow-img@2x.png"
+          src="../followpage_images/follow-img@2x.png"
         />
       </div>
       <div className={styles.followBar}>
@@ -30,13 +30,13 @@ export default function Follow(){
         <img
           className={styles.userImageIcon}
           alt=""
-          src="../followpage_img/user-image@2x.png"
+          src="../followpage_images/user-image@2x.png"
         />
         <div className={styles.userName}>csyeob</div>
         <img
           className={styles.delFollowImgIcon}
           alt=""
-          src="../followpage_img/del-follow-img@2x.png"
+          src="../followpage_images/del-follow-img@2x.png"
         />
         <div className={styles.delFollowTxt}>팔로우 취소</div>
       </div>
