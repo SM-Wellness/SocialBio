@@ -1,0 +1,255 @@
+.pidPageChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #daeee3;
+    width: 224px;
+    height: 1173px;
+  }
+  .chatBtnIcon {
+    position: absolute;
+    top: 504.63px;
+    left: 684.93px;
+    width: 55.83px;
+    height: 54.37px;
+    object-fit: cover;
+  }
+  .div,
+  .div1 {
+    position: absolute;
+    top: 519.18px;
+    left: 627.52px;
+    display: none;
+    width: 96.72px;
+    height: 32.93px;
+  }
+  .div1 {
+    left: 752.55px;
+  }
+  .heartBtnIcon {
+    position: absolute;
+    top: 506.16px;
+    left: 568.54px;
+    width: 47.18px;
+    height: 45.95px;
+    object-fit: cover;
+  }
+  .pidBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 558.32px;
+    height: 65.09px;
+  }
+  .pidName {
+    position: absolute;
+    top: 19.14px;
+    left: 76.31px;
+    display: inline-block;
+    width: 150.29px;
+    height: 19.14px;
+  }
+  .pidProfileImgIcon {
+    position: absolute;
+    top: 5.36px;
+    left: 7.82px;
+    width: 58.65px;
+    height: 53.6px;
+    object-fit: cover;
+  }
+  .pidBar,
+  .pidEtcIcon {
+    position: absolute;
+  }
+  .pidEtcIcon {
+    top: 26.8px;
+    left: 497.58px;
+    width: 40.49px;
+    height: 9.19px;
+  }
+  .pidBar {
+    top: 0;
+    left: 560.68px;
+    width: 558.32px;
+    height: 65.09px;
+  }
+  .image3Icon,
+  .pidUi2 {
+    position: absolute;
+    height: 559px;
+  }
+  .image3Icon {
+    top: 0;
+    left: 0;
+    width: 558.32px;
+    object-fit: cover;
+  }
+  .pidUi2 {
+    top: 368px;
+    left: 273px;
+    width: 1119px;
+    text-align: left;
+    font-size: var(--font-size-base);
+  }
+  .pidPageItem {
+    position: absolute;
+    top: 198px;
+    left: 442px;
+    width: 608.19px;
+    height: 81.72px;
+  }
+  .adMenuText,
+  .pidSelect {
+    position: absolute;
+    display: inline-block;
+    width: 258px;
+  }
+  .adMenuText {
+    top: 217px;
+    left: 1054px;
+    cursor: pointer;
+  }
+  .pidSelect {
+    top: 0;
+    left: 0;
+  }
+  .selectLine {
+    position: absolute;
+    top: 53px;
+    left: 76.99px;
+    border-top: 2px solid #9f9f9f;
+    box-sizing: border-box;
+    width: 115.02px;
+    height: 2px;
+  }
+  .pidBtn {
+    position: absolute;
+    top: 217px;
+    left: 196px;
+    width: 258px;
+    height: 54px;
+  }
+  .profileImgExIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 79.57px;
+    height: 89px;
+    object-fit: cover;
+  }
+  .profileName {
+    position: absolute;
+    top: 28.48px;
+    left: 55.7px;
+    display: inline-block;
+    width: 166.3px;
+    height: 32.04px;
+  }
+  .idBlockBtn {
+    top: 246px;
+    left: 8px;
+    width: 222px;
+    height: 89px;
+  }
+  .fllowlistText,
+  .idBlockBtn,
+  .listBtnIcon {
+    position: absolute;
+  }
+  .listBtnIcon {
+    top: 0;
+    left: 0;
+    width: 206px;
+    height: 70px;
+  }
+  .fllowlistText {
+    top: 22.7px;
+    left: 46px;
+    display: inline-block;
+    width: 147px;
+    height: 28.38px;
+  }
+  .followlistImgIcon {
+    position: absolute;
+    top: 15px;
+    left: 13px;
+    width: 35px;
+    height: 40px;
+    object-fit: cover;
+  }
+  .followBtn {
+    position: absolute;
+    top: 561px;
+    left: 16px;
+    width: 206px;
+    height: 70px;
+    cursor: pointer;
+    font-size: 23px;
+  }
+  .logoBox,
+  .menuBarBox {
+    position: absolute;
+    top: 0;
+    height: 102px;
+  }
+  .menuBarBox {
+    left: 224px;
+    background-color: #b6be86;
+    width: 1216px;
+  }
+  .logoBox {
+    left: 0;
+    background-color: #778dff;
+    width: 224px;
+  }
+  .listBtn {
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 103px);
+    border-radius: 50px;
+    background-color: var(--color-white);
+    border: 1px solid #b6b6b6;
+    box-sizing: border-box;
+    width: 206px;
+    height: 70px;
+  }
+  .adStarImgIcon,
+  .adStarText {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 89.02px);
+    width: 40px;
+    height: 40.58px;
+  }
+  .adStarText {
+    top: calc(50% - 12.3px);
+    left: calc(50% - 42.57px);
+    display: inline-block;
+    width: 125.95px;
+    height: 28.38px;
+  }
+  .adStarBtn {
+    position: absolute;
+    top: 461px;
+    left: 16px;
+    width: 206px;
+    height: 70px;
+    cursor: pointer;
+    font-size: 23px;
+  }
+  .pidPage {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  

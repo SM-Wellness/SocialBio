@@ -1,11 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-import Login from './pages/Login'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Pid from './pages/Pid';
+import Follow from './pages/Follow';
+
 function App() {
   return (
-    <div className="App">
-      <Login/>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/pid" element={<Pid/>}></Route>
+          <Route path= "/followlist" element={<Follow/>}></Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
