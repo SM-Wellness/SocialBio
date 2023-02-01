@@ -1,8 +1,8 @@
 import styles from "./FollowPage.module.css";
 import useFetch from './../hooks/fetch';
+import { Link } from "react-router-dom";
 
 export default function Follow(){
-    const follow = useFetch("http://localhost:3000/followlist");
     return (
     <div className={styles.followPage}>
       <div className={styles.followPageChild} />

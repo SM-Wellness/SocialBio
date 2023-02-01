@@ -1,18 +1,19 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Pid from './pages/Pid';
 import Follow from './pages/Follow';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div className="App">
         <Routes>
-          <Route path="/pid_page" element={<Pid/>}></Route>
+          <Route path="/pid" element={<Pid/>}></Route>
           <Route path= "/followlist" element={<Follow/>}></Route>
         </Routes>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
