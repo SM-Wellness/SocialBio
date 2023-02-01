@@ -1,0 +1,36 @@
+.login_box {
+    position: relative;
+    width: 400px;
+    height: 50px;
+    left: 10px;
+    bottom: 20px;
+    float:right;
+
+    background: #FFFFFF;
+    border: 1.5px solid #000000;
+    border-radius: 50px
+}
+.section_box{
+    padding-bottom: 20px;
+}
+.loginform{
+    position: absolute;
+    left:1000px; 
+    top:250px;
+
+}
+.login_signUp {
+    position: relative;
+    box-sizing: border-box;
+    width: 400px;
+    height: 50px;
+    left: 40px;
+    bottom: 5px;
+    background: #0029FF;
+    border-radius: 50px;
+
+}
+body{
+    background-image: url(/public/login_img/login.png);
+    background-size: 1519.2px 800px;
+}
