@@ -3,6 +3,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./datapage.css";
 import {Link} from 'react-router-dom';
+import Three from './three';
 
 class Datapage extends React.Component {
 
@@ -23,12 +24,13 @@ class Datapage extends React.Component {
         <div data-layer="8bca0263-0ebe-4b72-82a4-b3dc8d8dee82" className="topbar">            
         <div data-layer="fcb4446d-3c2a-4d5a-a24c-96b4f6566ee3" className="menubar"></div>
             <div data-layer="080496fd-427a-45c3-a982-665496b376e9" className="logo"></div>
-           <Link to="/three"> <div data-layer="09a650da-9505-490a-8230-7c06fef59db7" className="intropage">소개</div></Link>
+            <div data-layer="09a650da-9505-490a-8230-7c06fef59db7" className="intropage">소개</div>
             <div data-layer="ac016c64-3f5d-4c10-9013-71a771ee4b86" className="pidpage">피드</div>
             <div data-layer="3840616d-9396-4980-b409-6cab57be9060" className="datapage">진단</div>
+            <Link to ="/first"><div data-layer="282f1118-8a05-4792-b794-3ba59df2aa2b" className="socialbiologo"></div></Link>
             </div>
         <div data-layer="bea7cf16-ae5c-4bd0-a5a8-c3d4dade4260" className="usertop">            
-        <Link to="/"><div data-layer="5bba6c60-08ef-438d-9164-bb3ce583e1ec" className="profile">프로필</div></Link>
+        <Link to="/data"><div data-layer="5bba6c60-08ef-438d-9164-bb3ce583e1ec" className="profile">프로필</div></Link>
             <div data-layer="651c8aa6-5f19-4502-859c-94bd1e136a5c" className="dm">쪽지</div>
             <div data-layer="76a38c53-f9be-4faa-94d3-bb897c59be09" className="pidlink">게시글</div>
             </div>
@@ -65,9 +67,8 @@ class Datapage extends React.Component {
             <div data-layer="9e5c69c9-a318-43ce-8cf5-f6a60652e161" className="water">물</div>
             <div data-layer="086e7d38-22ef-4aa1-b405-c26020a53aa1" className="walk">걸음 수</div>
             <div data-layer="49db498b-2ef9-4c81-bbfe-1c1adbb94072" className="liver">간 수치</div>
-            <Link to="/detail"><svg data-layer="36d1ec12-e579-42d1-8a39-a5f588cd1c21" preserveAspectRatio="none" viewBox="0 0 359 347" className="datashape">
-                <path d="M 179.5000152587891 5.436796072899597e-06 C 215.528076171875 1.90547348211112e-06 250.6075592041016 11.54781246185303 279.5906372070313 32.94881820678711 L 280.8991394042969 33.91501617431641 C 309.3863525390625 54.94985961914063 330.5223999023438 84.42497253417969 341.305908203125 118.1547698974609 L 342.595458984375 122.1883697509766 C 353.2658081054688 155.5640258789063 353.2658081054688 191.4359588623047 342.5954895019531 224.8116302490234 L 341.3059387207031 228.8452606201172 C 330.5223999023438 262.5750122070313 309.3863525390625 292.0501403808594 280.899169921875 313.0849609375 L 279.5906677246094 314.0511779785156 C 250.6075744628906 335.4522094726563 215.528076171875 347 179.5 347 L 179.4999847412109 347 C 143.4718933105469 347 108.3924102783203 335.4522094726563 79.40932464599609 314.0511779785156 L 78.10079956054688 313.0849609375 C 49.61363983154297 292.0501403808594 28.47758865356445 262.5750427246094 17.69406318664551 228.8452453613281 L 16.40448951721191 224.8115844726563 C 5.734184265136719 191.4359436035156 5.734185695648193 155.5640411376953 16.40449523925781 122.1884078979492 L 17.69405174255371 118.1548004150391 C 28.47760009765625 84.42497253417969 49.61368942260742 54.94982147216797 78.10089874267578 33.91496658325195 L 79.40926361083984 32.94887161254883 C 108.3923797607422 11.5478401184082 143.471923828125 8.968120710051153e-06 179.5000610351563 5.436792889668141e-06 Z"  />
-                </svg></Link>
+            <Link to="/detail"><div className="datashape"><Three /></div>
+            </Link>
 </div>
         <div data-layer="01d2efc6-0caa-43d2-b93e-23c48e2d86be" className="radiobtn">            
         <input type="checkbox" data-layer="9e6f55a3-4961-4a63-8509-a28d036f8ea5" className="radio1"></input> 

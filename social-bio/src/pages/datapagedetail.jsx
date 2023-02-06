@@ -23,10 +23,11 @@ class Datapagedetail extends React.Component {
             <div data-layer="181542b7-ff41-41d6-ae74-329a2a66deed" className="logo"></div>
             <div data-layer="700b4756-4dca-4336-befd-c92a3fdb9854" className="intropage">소개</div>
             <div data-layer="397cc787-0d72-45a6-92a8-1a083ee79fba" className="pidpage">피드</div>
-            <div data-layer="9cb39e1c-0a8c-44c9-b3fc-ceefc2ef963f" className="datapage">진단</div>
+            <Link to="/data"><div data-layer="9cb39e1c-0a8c-44c9-b3fc-ceefc2ef963f" className="datapage">진단</div></Link>
+            <Link to ="/first"><div data-layer="282f1118-8a05-4792-b794-3ba59df2aa2b" className="socialbiologo"></div></Link>
 </div>
         <div data-layer="ea2337c6-f530-48e3-88a5-f78e73999a0d" className="usertop">           
-        <Link to="/"><div data-layer="c50c4ffd-f0bf-4c3b-8684-7f841d4037b3" className="profile">프로필</div></Link>
+        <Link to="/data"><div data-layer="c50c4ffd-f0bf-4c3b-8684-7f841d4037b3" className="profile">프로필</div></Link>
             <div data-layer="00a64738-f9e7-4ad2-b0bd-2b9e12a50703" className="dm">쪽지</div>
             <div data-layer="638371bf-15a5-4e89-a37d-fb1aee77fef0" className="pidlink">게시글</div>
 </div>
